@@ -14,7 +14,7 @@ document.addEventListener( 'DOMContentLoaded', () => {
   } );
 
   ScrollFect.appearance( '.page-block', {
-    animation: ScrollFect.animationStore.appearanceFade,
+    animation: ScrollFect.animationStore.appearanceSlideRight,
     duration: 0.75,
     gap: [ 145, 20 ],
     params: {
