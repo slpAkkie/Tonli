@@ -23,6 +23,7 @@ document.addEventListener( 'DOMContentLoaded', () => {
   } );
 
 
+
   /**
    * Навигационная панель на мобильных устройствах
    */
