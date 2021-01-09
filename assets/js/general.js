@@ -16,15 +16,15 @@ document.addEventListener( 'DOMContentLoaded', () => {
 
   const generalSFOptions = {
     duration: 0.75,
-    gap: [ 145, 20 ],
-    params: {
-      minScale: 0.95
-    }
+    gap: [ 145, 20 ]
   };
 
   ScrollFect.appearance( 'section#tonli-idea', {
     animation: ScrollFect.animationStore.appearanceFade,
-    ...generalSFOptions
+    ...generalSFOptions,
+    params: {
+      minScale: 0.95
+    }
   } );
 
   ScrollFect.appearance( '.sf__appearance_slide-left', {
