@@ -42,11 +42,11 @@
           Colors
     ====================
   */
-  --primary-color: #006CFE;
+  --primary-color: #006cfe;
   --primary-active-color: #3900fe;
   --secondary-color: #e5f0ff;
   --secondary-inactive-color: #f1f7ff;
-  --light-color: #F2F2F2;
+  --light-color: #f7f7f7;
   --dark-color: #333333;
 
 }
