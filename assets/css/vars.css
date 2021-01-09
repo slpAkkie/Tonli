@@ -1,8 +1,52 @@
 :root {
+
+  /*
+    ====================
+          Generals
+    ====================
+  */
+  --font-family: 'Segoe UI', sans-serif;
+  --font-size: 16px;
+
+  --nav-gap-y: 15px;
+
+  --nav-logo-height: 55px;
+  --nav-height: 89px;
+  --nav-burger-size: 2.5em;
+
+  --max-page-width: 1140px;
+  --container-gap: 30px;
+
+
+
+  /*
+    ====================
+        Proportions
+    ====================
+  */
+
+  --page-block-margin-y: 30px;
+  --page-block-padding: 45px 30px;
+
+  /* Decoration */
+  --rounding-value: 4px;
+  --light-shadow: 0px 0px 5px 2px var(--secondary-color);
+
+  /* Buttons */
+  --button-padding: 15px 45px;
+
+
+
+  /*
+    ====================
+          Colors
+    ====================
+  */
   --primary-color: #006CFE;
   --primary-active-color: #3900fe;
   --secondary-color: #e5f0ff;
   --secondary-inactive-color: #f1f7ff;
   --light-color: #F2F2F2;
   --dark-color: #333333;
+
 }
