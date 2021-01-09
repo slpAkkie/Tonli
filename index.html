@@ -7,6 +7,8 @@
   =============== -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#006cfe">
+  <meta name="description" content="Tonli - онлайн сервис для организации тестирования">
 
   <!-- Favicon
   =============== -->
@@ -15,6 +17,7 @@
   <!-- CSS
   =============== -->
   <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/pages/landing.css">
 
   <!-- JS
   =============== -->
@@ -30,13 +33,13 @@
   <!-- Nav
   =============== -->
   <nav class="top-nav">
-    <div class="container">
+    <div class="container container_full-height">
       <div class="top-nav__inner">
 
         <!-- Logo
         =============== -->
         <div class="top-nav__logo">
-          <a href="./index.html"><img src="./assets/img/logo/Logo.png" alt="Tonli"></a>
+          <a href="./index.html"><img id="top-nav__logo-img" src="./assets/img/logo/Logo.png" alt="Tonli"></a>
         </div>
 
         <!-- Nav buttons
@@ -61,37 +64,93 @@
     </div>
   </nav> <!-- !top-nav -->
 
-  <!-- Page Container
-  =============== -->
-  <div class="container">
 
-    <!-- Main page content
-    =============== -->
-    <div class="page-content">
 
-      <!-- Content block
+  <!-- Page content
       =============== -->
-      <div class="page-block page-block_colored page-block_two-column">
+  <div class="page-content">
+
+    <!-- Container
+  =============== -->
+    <div class="container">
+
+      <!-- Tonli idea
+      =============== -->
+      <section id="tonli-idea" class="page-block page-block_colored-light page-block_two-column">
 
         <h2 class="page-block__header">Tonli - онлайн сервис для организации тестирования</h2>
 
-        <div class="page-block__description">
+        <article class="page-block_column page-block__article">
           <p>Tonli - это сервис, где вы можете легко проводить тестирования для ваших учеников и студентов. В отличии от
             других сервисов мы предоставляем удобный и понятный интерфейс с большим количеством функционала, который
             будет понятен даже тем, кто не знаком с построением тестов</p>
           <p>Проведение тестов в традиционной форме устарело. Вам больше не надо подсчитывать правильные ответы и
             выставлять оценки, Tonli сделает это за вас</p>
+        </article>
+
+        <div class="page-block_column page-block__image-wrapper page-block__image-wrapper_alone">
+          <img class="page-block__image" src="./assets/img/block__test-list.jpg" alt="Test">
         </div>
 
-        <div class="page-block__image">
-          <img class="rounded" src="./assets/img/block__test-list.jpg" alt="Test">
+      </section> <!-- !Tonli idea -->
+
+      <!-- Action blocks
+      =============== -->
+      <div class="page-block_two-column">
+
+        <div class="page-block_column">
+
+          <!-- Rooms
+          =============== -->
+          <section class="page-block page-block_colored-dark sf__appearance_slide-left">
+            <h2 class="page-block__header">Комната для вас и ваших учеников</h2>
+
+            <article class="page-block__article">
+              <p>Зачем проводить тесты в тесных классах, присутствовать в школе или ВУЗе. Проведите тестирование дома, в
+                уютных домашних условиях.</p>
+              <p>Теперь это намного проще чем раньше. Создайте комнату и дайте вашим ученикам ее код так
+                вы сможете легко отслеживать успеваемость ваших учеников, а им будет удобнее проходить тестирования</p>
+            </article>
+
+            <div class="page-block__image-wrapper">
+              <img class="page-block__image" src="./assets/img/block__room.jpg" alt="Room">
+            </div>
+
+            <div class="button button_center button_light button_hover-shadow landing-action-button">Создать комнату
+            </div>
+          </section> <!-- !Rooms -->
+
         </div>
 
-      </div> <!-- !page-block -->
+        <div class="page-block_column">
 
-    </div> <!-- !page-content -->
+          <!-- Constructor
+          =============== -->
+          <section class="page-block page-block_colored-dark sf__appearance_slide-right">
+            <h2 class="page-block__header">Удобство для вас</h2>
 
-  </div> <!-- !container -->
+            <article class="page-block__article">
+              <p>Создавать тесты с <span class="highlight highlight_big">Tonli</span> одно удовольствие. Мы
+                предоставляем
+                вам широкий выбор видов
+                вопросов,
+                которые вы
+                можете использовать при создании ваших тестов</p>
+            </article>
+
+            <div class="button button_center button_light button_hover-shadow landing-action-button">Перейти в
+              конструктор
+              тестов</div>
+          </section> <!-- !Constructor -->
+
+        </div>
+
+      </div> <!-- !Action blocks -->
+
+    </div> <!-- !Page content -->
+  </div> <!-- !Container -->
+
+
 
   <!-- JS
   =============== -->

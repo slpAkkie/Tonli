@@ -13,14 +13,30 @@ document.addEventListener( 'DOMContentLoaded', () => {
     }
   } );
 
-  ScrollFect.appearance( '.page-block', {
-    animation: ScrollFect.animationStore.appearanceFade,
+
+  const generalSFOptions = {
     duration: 0.75,
     gap: [ 145, 20 ],
     params: {
       minScale: 0.95
     }
+  };
+
+  ScrollFect.appearance( 'section#tonli-idea', {
+    animation: ScrollFect.animationStore.appearanceFade,
+    ...generalSFOptions
   } );
+
+  ScrollFect.appearance( '.sf__appearance_slide-left', {
+    animation: ScrollFect.animationStore.appearanceSlideLeft,
+    ...generalSFOptions
+  } );
+
+  ScrollFect.appearance( '.sf__appearance_slide-right', {
+    animation: ScrollFect.animationStore.appearanceSlideRight,
+    ...generalSFOptions
+  } );
+
 
 
   /**
