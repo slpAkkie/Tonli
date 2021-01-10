@@ -58,6 +58,8 @@ body {
   background-color: var(--primary-color);
   color: var(--light-color);
 
+  text-align: center;
+
   font-weight: bold;
 
   border-radius: var(--rounding-value);
